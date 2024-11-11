@@ -98,7 +98,12 @@ echo "${RED}${BOLD}Copy this: "${RESET}""${WHITE}${BOLD}"$PUBLIC_IP""${RESET}"
 #-----------------------------------------------------end----------------------------------------------------------#
 ```
 
-* Use **postgres-cp** as the name and ID of the connection profile.
+---
+
+* the name and ID of the connection profile Use as :
+```
+postgres-cp
+```
 
 | Field | Value |
 | :---: | :----: |
@@ -106,14 +111,27 @@ echo "${RED}${BOLD}Copy this: "${RESET}""${WHITE}${BOLD}"$PUBLIC_IP""${RESET}"
 | Password  | **pwd** |
 | Database | **postgres** |
 
-* Use **bigquery-cp** as the name and ID of the connection profile.
+* The name and ID of the connection profile use as
+```
+bigquery-cp
+```
 
-* Use **test-stream** as the name and ID of the stream
+* The name and ID of the stream use as :
+```
+test-stream
+```
 
-* Specify the replication slot name as **test_replication**
+* Specify the replication slot name as :
+```
+test_replication
+```
 
-* Specify the publication name as **test_publication**
+* Specify the publication name as :
+```
+test_publication
+```
   
+---
 
 # Congratulations ..!!🎉  You completed the lab shortly..😃💯
 
